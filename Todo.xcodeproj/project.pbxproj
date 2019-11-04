@@ -57,14 +57,46 @@
 			isa = PBXGroup;
 			children = (
 				B2205784233A1CF500864F25 /* AppDelegate.swift */,
-				B2205786233A1CF500864F25 /* TodoListViewController.swift */,
-				B2205788233A1CF500864F25 /* Main.storyboard */,
-				B220578B233A1CF700864F25 /* Assets.xcassets */,
-				B220578D233A1CF700864F25 /* LaunchScreen.storyboard */,
+				B257DCB42370470200E0EDA4 /* Models */,
+				B257DCB3237046FE00E0EDA4 /* Views */,
+				B257DCB2237046F200E0EDA4 /* Controllers */,
+				B257DCB52370470400E0EDA4 /* Supporting Files */,
 				B2205790233A1CF700864F25 /* Info.plist */,
-				B2205796233A601B00864F25 /* Item.swift */,
 			);
 			path = Todo;
+			sourceTree = "<group>";
+		};
+		B257DCB2237046F200E0EDA4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B2205786233A1CF500864F25 /* TodoListViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B257DCB3237046FE00E0EDA4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B2205788233A1CF500864F25 /* Main.storyboard */,
+				B220578D233A1CF700864F25 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B257DCB42370470200E0EDA4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B2205796233A601B00864F25 /* Item.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B257DCB52370470400E0EDA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B220578B233A1CF700864F25 /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
