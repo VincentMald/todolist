@@ -57,6 +57,7 @@ class TodoListViewController: UITableViewController {
             self.itemArray.append(newItem)
             //self.defaults.set(<#T##url: URL?##URL?#>, forKey: <#T##String#>)
             self.tableView.reloadData()
+            test.
         }
         
         alert.addTextField { (alertTextField) in
